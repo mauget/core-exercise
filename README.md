@@ -18,3 +18,13 @@ that there is no direct console output from the app code.
 
 ## Run
 
+Run the committed "production" classes from a terminal open on the 
+project root:
+
+```java
+java -cp "./out/production/core-exercise" com.rogersalumni.Main
+```
+It displays a "starting" message and then appears to hang. Any core utilization display will 
+start to alter itself. 
+
+To end, use `ctrl+c`. There will be a delay while threads begin to understand that it's over.
